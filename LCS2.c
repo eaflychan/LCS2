@@ -1,17 +1,17 @@
-#include "string.h"
+ï»¿#include "string.h"
 #include "stdio.h"
 int x,y;
 char out[100][100]={0};
 char out2[10][2]={0};
-char S1[100]={0};//ÁĞ
-char S2[100]={0};//ĞĞ	
+char S1[100]={0};//åˆ—
+char S2[100]={0};//è¡Œ	
 
 int main()
 {
 	int i,j,max=0,s,num=1,c,m;
-	printf("ÊäÈëS1:");
+	printf("è¾“å…¥S1:");
 	scanf("%s",S1);
-	printf("ÊäÈëS2:");
+	printf("è¾“å…¥S2:");
 	scanf("%s",S2);
 	x=strlen(S1);
 	y=strlen(S2);
